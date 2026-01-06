@@ -14,11 +14,6 @@
 
 ## 👥 Team Members
 
-- **SE160607** - Tran Phong
-- **SE160611** -
-- **SE160599** -
-- **SE160585** -
-
 ---
 
 ## 🎓 Supervisor
@@ -35,13 +30,9 @@ Enterprises—especially service providers and product teams—now require a tru
 
 ## 🛠️ Technology Stack
 
-- **Frontend:** ReactJS, Typescript, Tailwind CSS, Shadcn UI
+- **Frontend:** React, Typescript, Vite
 - **Deployment:** Google Cloud App Engine
 - **Other Tools:** GitHub
-
----
-
-## 🔥 Screenshots
 
 ---
 
