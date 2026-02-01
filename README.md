@@ -14,11 +14,6 @@
 
 ## 👥 Team Members
 
-- **SE160607** - Võ Thanh Tuyền
-- **SE160611** - Thiều Phan Văn Minh
-- **SE160599** - Võ Trọng Vương
-- **SE160585** - Hà Nhật Trường
-
 ---
 
 ## 🎓 Supervisor
