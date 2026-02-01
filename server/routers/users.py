@@ -18,6 +18,7 @@ from security.jwt import create_access_token, get_current_user, hash_password, v
 from security.permissions import (
     ROLE_SYSTEM_ADMIN,
     ROLE_TENANT_ADMIN,
+    ROLE_PM,
 )
 
 router = APIRouter(prefix="/users", tags=["Users"])

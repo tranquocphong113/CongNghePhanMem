@@ -8,7 +8,7 @@ from database.models.partner import PartnerCompany
 from database.models.user import User
 from schemas.partners import PartnerCompanyOut, PartnerInviteCreate
 from security.jwt import get_current_user
-from security.permissions import ROLE_TENANT_ADMIN
+from security.permissions import ROLE_TENANT_ADMIN, ROLE_PM
 
 router = APIRouter(tags=["Partners"])
 
@@ -44,7 +44,7 @@ def get_partnership(db: Session, tenant_id: int, partner_tenant_id: int) -> Part
 
 
 def require_tenant_admin(current_user: User) -> None:
-    if current_user.role != ROLE_TENANT_ADMIN:
+    if current_user.role not in {ROLE_TENANT_ADMIN, ROLE_PM}:
         raise HTTPException(status_code=403, detail="Not enough permissions")
 
 

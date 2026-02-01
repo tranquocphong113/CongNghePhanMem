@@ -133,7 +133,7 @@ def delete_task(
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user),
 ):
-    if current_user.role != ROLE_PM or ROLE_TENANT_ADMIN:
+    if current_user.role not in {ROLE_PM, ROLE_TENANT_ADMIN}:
         raise HTTPException(status_code=403, detail="Only PM or Tenant Admin can delete tasks")
 
     task = db.query(Task).filter(Task.id == task_id).first()
