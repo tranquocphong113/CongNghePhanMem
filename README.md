@@ -37,7 +37,7 @@ Enterprises—especially service providers and product teams—now require a tru
 
 - **Frontend:** React, Typescript, Vite
 - **Backend:** Python
-- **Database:** MySQL
+- **Database:** SQL Server
 - **Tools:** GitHub
 
 ---
