@@ -14,13 +14,12 @@
 
 ## 👥 Team Members
 
-- **077205011286** - Phạm Thiên Quý
-- **075206006144** - Trần Quốc Phong
-- **077206001868** - Ngô Trần Phước Thịnh
-- **075206004733** - Nguyễn Công Thành
-- **077206002308** - Trương Quang Hòa
-- **082206016304** - Trần Thanh Hồng
-- **077206000820** - Trần Nguyễn Huy Hoàng
+- **SE160607** - Võ Thanh Tuyền
+- **SE160611** - Thiều Phan Văn Minh
+- **SE160599** - Võ Trọng Vương
+- **SE160585** - Hà Nhật Trường
+
+---
 
 ## 🎓 Supervisor
 
@@ -37,9 +36,8 @@ Enterprises—especially service providers and product teams—now require a tru
 ## 🛠️ Technology Stack
 
 - **Frontend:** React, Typescript, Vite
-- **Backend:** Python
-- **Database:** MySQL
-- **Tools:** GitHub
+- **Deployment:** Google Cloud App Engine
+- **Other Tools:** GitHub
 
 ---
 
